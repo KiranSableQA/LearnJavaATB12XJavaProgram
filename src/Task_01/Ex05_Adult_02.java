@@ -1,6 +1,6 @@
 package Task_01;
 
-public class Ex05_Found_dadult_minor_senior02 {
+public class Ex05_Adult_02 {
 
     public static void main(String[] args) {
 
