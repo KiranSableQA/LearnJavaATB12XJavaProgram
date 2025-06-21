@@ -12,12 +12,12 @@ public class Lab025_Constants {
         System.out.println(b);
         System.out.println(b);
 
-        final float PI = 3.14f;
-        final float PI1 = 3.14f;
-        final float PI2 = 3.14f;
-        final float PI4 = 3.14f;
-
-        final int a1 = 10;
+//        final float PI  = 3.14f;
+//        final float PI1 = 3.14f;
+//        final float PI2 = 3.14f;
+//        final float PI4 = 3.14f;
+//
+//        final int a1 = 10;
 
         //PI = 90;
 

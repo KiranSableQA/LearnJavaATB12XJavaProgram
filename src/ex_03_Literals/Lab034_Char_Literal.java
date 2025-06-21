@@ -3,7 +3,7 @@ package ex_03_Literals;
 public class Lab034_Char_Literal {
     public static void main(String[] args) {
         char c1 = 'A'; // A to Z, a-z, !@#$%^&*()_+
-//        char c = "A"; // "" == String = Bunch of Char
+//      char c = "A"; // "" == String = Bunch of Char
 
         char c2 = 'B';
         char c3 = '@';
@@ -27,12 +27,10 @@ public class Lab034_Char_Literal {
         System.out.println( " ----- ");
 
         System.out.println("Pramod is "+carriage_return+"Dutta");
-
         System.out.println("Hi, This is a First line"+new_line+"This is second line\n This is Third line");
 
-
         char c10 = 'A';
-        //  // ASCII, (limited numbers) - A -> 65
+        // ASCII, (limited numbers) - A -> 65
 
         char ruppes = '₹';
         System.out.println(ruppes);

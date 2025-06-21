@@ -6,7 +6,5 @@ public class Lab018 {
         int $ = 65;
         int year = 2025;
         int this_is_a_vari_long_name_in_the_class_hello_$_akakak = 89;
-
-
     }
 }

@@ -1,8 +1,9 @@
 package ex_03_Literals;
 
-public class Lab035_Non_Primitive_Literal {
-    public static void main(String[] args) {
-
+public class Lab035_Non_Primitive_Literal
+{
+    public static void main(String[] args)
+    {
         // Primitive Data Type - Defined by Java Guys
         // Max, Min, Size defined
 
@@ -15,6 +16,5 @@ public class Lab035_Non_Primitive_Literal {
 
         String name = "Pramod"; // String is bunch of char.
         int[] arrays_of_items = new int[10];
-
     }
 }
