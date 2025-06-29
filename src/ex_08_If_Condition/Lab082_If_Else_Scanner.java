@@ -11,8 +11,7 @@ public class Lab082_If_Else_Scanner {
 
         // How to take the user Input
         // 1. CLI Options
-        //
-//        int age = Integer.parseInt(args[0]);
+        // b int age = Integer.parseInt(args[0]);
 
 
         // 2. Scanner Class
@@ -25,7 +24,7 @@ public class Lab082_If_Else_Scanner {
         }else{
             System.out.println("Not allowed to Vote!");
         }
-
+ scanner.close();
 
 
 
