@@ -7,6 +7,8 @@ public class Lab197_ENUM {
 }
 
 // Constants list
-enum Day{
-    SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
+enum Day
+{
+    SUNDAY, MONDAY, TUESDAY, WEDNESDAY,
+    THURSDAY, FRIDAY, SATURDAY
 }

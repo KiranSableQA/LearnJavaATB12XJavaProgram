@@ -5,7 +5,6 @@ public class Lab199_ENUM_P3 {
         System.out.println(Colors.RED.getHexCode());
     }
 }
-
 enum Colors{
     RED("#FF0000"),
     GREEN("#61FF33"),
@@ -14,11 +13,13 @@ enum Colors{
 
     private String hexCode;
 
-    Colors(String hexCode){
+    Colors(String hexCode)
+    {
         this.hexCode = hexCode;
     }
 
-    String getHexCode(){
+    String getHexCode()
+    {
         return this.hexCode;
     }
 }

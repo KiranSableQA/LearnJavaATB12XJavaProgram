@@ -1,17 +1,16 @@
 package ex_22_ENUM;
 
-public class APIURLS {
-    public static APIURLS katalon;
-//    katalon("https://katalon.com"),
-//    google("https://google.com");
+public enum APIURLS {
+    katalon("https://katalon.com"),
+    google("https://google.com");
 
-    private String url;
+    private final String url;
 
-    APIURLS(String url){
+    APIURLS(String url) {
         this.url = url;
     }
 
-    String getUrl(){
+    public String getUrl() {
         return this.url;
     }
 }
