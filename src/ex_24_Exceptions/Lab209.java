@@ -4,9 +4,11 @@ public class Lab209 {
     public static void main(String[] args) {
         int a = 0;
         int c = 0;
-        try {
+        try
+        {
             c = 10/a;
-        } catch (Throwable e) {
+        } catch (Throwable e)
+        {
             System.out.println(e.getMessage());
         }
         System.out.println(c);

@@ -14,7 +14,7 @@ public class Lab165_Const
         System.out.println(nano.year);
 
         Car2 mghector = new Car2("mghector",2025);
-        System.out.println(nano.model);
-        System.out.println(nano.year);
+        System.out.println(mghector.model);
+        System.out.println(mghector.year);
     }
 }

@@ -3,13 +3,14 @@ package ex_17_OOPs;
 public class LabTask {
     String name;
 
-    LabTask(){
+    LabTask()
+    {
         System.out.println("Default Constructor is called");
     }
 
 
-
-    void printName(){
+    void printName()
+    {
         System.out.println("Hi, name");
     }
 }

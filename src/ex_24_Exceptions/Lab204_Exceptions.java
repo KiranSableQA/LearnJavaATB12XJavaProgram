@@ -1,7 +1,9 @@
 package ex_24_Exceptions;
 
-public class Lab204_Exceptions {
-    public static void main(String[] args) {
+public class Lab204_Exceptions
+{
+    public static void main(String[] args)
+    {
         System.out.println("Start the program");
 
         String ip = args[0]; // java.lang.ArrayIndexOutOfBoundsException

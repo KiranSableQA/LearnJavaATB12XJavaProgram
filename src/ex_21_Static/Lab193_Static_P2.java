@@ -1,5 +1,4 @@
 package ex_21_Static;
-
 public class Lab193_Static_P2 {
     public static void main(String[] args) {
         ATB umesh = new ATB(987654321,"Umesh");
@@ -9,11 +8,11 @@ public class Lab193_Static_P2 {
         System.out.println(ATB.course_name);
         System.out.println(ATB.course_name);
         ATB.markAttendance();
+        umesh.display();
+        anubha.display();
     }
 }
-
-class ATB{
-
+class ATB {
     int phone_np;
     String name;
     static String course_name = "ATB";
@@ -22,12 +21,10 @@ class ATB{
         this.phone_np = phone_np;
         this.name = name;
     }
-
-    void display(){
-        System.out.println(this.phone_np + this.name + course_name);
+    void display() {
+        System.out.println(this.phone_np + " " + this.name + " " +course_name);
     }
-
-    static void markAttendance(){
+    static void markAttendance() {
         System.out.println("Mark Attendance");
     }
 }

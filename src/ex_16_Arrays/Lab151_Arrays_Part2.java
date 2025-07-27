@@ -22,6 +22,7 @@ public class Lab151_Arrays_Part2 {
         is_male_data[0] =  true;
         is_male_data[1] =  false;
         System.out.println(is_male_data[1]);
+        System.out.println(is_male_data[0]);
 
     }
 }

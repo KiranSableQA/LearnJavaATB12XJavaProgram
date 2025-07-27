@@ -7,12 +7,16 @@ public class Lab225 {
         temp("pramod", "dutta");
     }
 
-    static <Pramod> Pramod temp(Pramod a, Pramod b) {
+    static <T> T temp(T a, T b)
+    {
+        System.out.println(a);
+        System.out.println(b);
+
+        System.out.println(a + " " + b);
 
         return null;
     }
 
-    static <T> T temp_sum(T a, T b){
-        return null;
-    }
+
+
 }

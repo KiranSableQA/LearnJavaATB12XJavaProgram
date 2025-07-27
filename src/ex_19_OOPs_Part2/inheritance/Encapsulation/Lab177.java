@@ -13,7 +13,8 @@ public class Lab177 {
 }
 
 
-class ICICIBank {
+class ICICIBank
+{
 
     //## Encapsulation
     //- Encapsulation is a fundamental concept in object-oriented programming (OOP).

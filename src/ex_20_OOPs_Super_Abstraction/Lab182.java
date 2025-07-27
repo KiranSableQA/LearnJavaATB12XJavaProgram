@@ -10,60 +10,69 @@ package ex_20_OOPs_Super_Abstraction;
     class Vehicle{
         public int maxSpeed = 180;
 
-        void noTest() {
+        void noTest()
+        {
             System.out.println("Empty!");
         }
 
-        Vehicle(){
+        Vehicle()
+        {
             System.out.println("Default Const");
         }
 
-        Vehicle(int a ){
+        Vehicle(int a )
+        {
             System.out.println("Param Con");
         }
-        Vehicle(int a, int b ){
+        Vehicle(int a, int b )
+        {
             System.out.println("Param Con");
         }
 
         // Method Overloading - Same, same name function with different arguments.
-        void message(){
+        void message()
+        {
             System.out.println("No Return, No Argument");
         }
 
-        void message(int a){
+        void message(int a)
+        {
             System.out.println("PC - arguemnt");
         }
 
-        void display(){
+        void display()
+        {
             System.out.println("Vehicle Parent");
         }
-
-
-
     }
 
-    class Car extends Vehicle{
+    class Car extends Vehicle
+    {
         private int maxSpeed = 281;
 
-        Car(){
+        Car()
+        {
             super(100);
         }
 
-        void test(){}
+        void test()
+        {
 
-        Car(int a){
+        }
+
+        Car(int a)
+        {
             System.out.println("PC Car");
         }
 
         @Override
-        void display() {
+        void display()
+        {
             System.out.println("Override of Car!");
             System.out.println(super.maxSpeed);
             System.out.println(this.maxSpeed);
             super.noTest();
             this.test();
-
-
         }
 
     }

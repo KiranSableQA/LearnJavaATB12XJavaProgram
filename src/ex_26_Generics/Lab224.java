@@ -1,7 +1,9 @@
 package ex_26_Generics;
 
-public class Lab224 {
-    public static void main(String[] args) {
+public class Lab224
+{
+    public static void main(String[] args)
+    {
         temp_sum(23,45);
         temp_sum(2.3,4.5);
         temp_sum("Pramod","Dutta");
@@ -16,12 +18,15 @@ public class Lab224 {
     static Double temp_sum(Double a, Double b){
         return a+b;
     }
+
     // T -> pramod, modi, deesha
     static <T> T temp_sum(T a, T b){
+//        System.out.println(a);
+//        System.out.println(b);
         return null;
     }
 
-    static <MODI> MODI temp_sum1(MODI a, MODI b){
+    static <Kiran> Kiran temp_sum1(Kiran a, Kiran b) {
         return null;
     }
 }

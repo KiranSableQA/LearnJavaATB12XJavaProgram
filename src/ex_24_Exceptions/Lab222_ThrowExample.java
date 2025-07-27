@@ -8,12 +8,15 @@ public class Lab222_ThrowExample {
 
     static void validate_age_for_club(int age){
         if(age < 18){
+            System.out.println("Sorry! You are underage for clubbing.");
             try {
                 throw new Exception("Age can't be 18");
-            } catch (Exception e) {
+            }
+            catch (Exception e) {
                 System.out.println(e.getMessage());
             }
-        }else{
+        }
+        else{
             System.out.println("Enjoying clubbing");
         }
     }

@@ -1,14 +1,14 @@
 package ex_21_Static;
 
-public class Lab195_Real {
-    public static void main(String[] args) {
+public class Lab195_Real
+{
+    public static void main(String[] args)
+    {
 
     }
 }
-
-
-class ATB1{
-
+class ATB1
+{
     {
         System.out.println("IIB - this is called when Object is created!");
         // What is the purpose? -
@@ -18,7 +18,8 @@ class ATB1{
         //
     }
 
-    static {
+    static
+    {
         System.out.println("Load the class?, I will execute");
     }
 

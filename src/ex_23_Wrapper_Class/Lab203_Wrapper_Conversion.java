@@ -1,7 +1,9 @@
 package ex_23_Wrapper_Class;
 
-public class Lab203_Wrapper_Conversion {
-    public static void main(String[] args) {
+public class Lab203_Wrapper_Conversion
+{
+    public static void main(String[] args)
+    {
         String num = "10";
         int aa = 10;
 

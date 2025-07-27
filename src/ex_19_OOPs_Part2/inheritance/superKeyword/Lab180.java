@@ -1,7 +1,16 @@
 package ex_19_OOPs_Part2.inheritance.superKeyword;
 
-public class Lab180 {
-}class BaseClass{
+public class Lab180
+{
+    public static void main(String[] args)
+    {
+        // Create object of child class and pass browser name
+        TestCase1 t1 = new TestCase1("firefox");
+
+    }
+}
+class BaseClass
+{
     private String browser;
 
     public BaseClass(String browser) {
@@ -21,8 +30,6 @@ public class Lab180 {
         }
 
     }
-
-
     void openBrowser() {
         System.out.println("Opening Browser!!");
     }
@@ -34,16 +41,22 @@ public class Lab180 {
         System.out.println("Close Browser!!");
     }
 
-    void bhk3(){}
+    void bhk3()
+    {
+        System.out.println("i have 3BHK");
+    }
 }
 
 class TestCase1 extends BaseClass {
 
 
-    public void tc() {
+    public void tc()
+    {
     }
 
-    public TestCase1(String browser) {
+    public TestCase1(String browser)
+    {
+
         super(browser);
         super.openBrowser();
         super.openBrowser("chrome");

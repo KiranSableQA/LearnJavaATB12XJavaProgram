@@ -1,11 +1,12 @@
 package ex_19_OOPs_Part2.inheritance.Encapsulation;
 
 public class Lab176 {
-    public static void main(String[] args) {
-        VWOLogin vwoLogin = new VWOLogin("admin","pass123");
-        System.out.println(vwoLogin.password);
-        vwoLogin.password = "345";
-        System.out.println(vwoLogin.password);
+    public static void main(String[] args)
+    {
+//        VWOLogin vwoLogin = new VWOLogin("admin","pass123");
+//        System.out.println(vwoLogin.password);
+//        vwoLogin.password = "345";
+//        System.out.println(vwoLogin.password);
 
 
         GoodVWOLogin vwoLogin1 =  new GoodVWOLogin("admin","pwd123");
@@ -23,15 +24,15 @@ public class Lab176 {
 
 }
 
-class VWOLogin {
-    public String username;
-    public String password;
-
-    public VWOLogin(String username, String password) {
-        this.username = username;
-        this.password = password;
-    }
-}
+//class VWOLogin {
+//    public String username;
+//    public String password;
+//
+//    public VWOLogin(String username, String password) {
+//        this.username = username;
+//        this.password = password;
+//    }
+//}
 
 class GoodVWOLogin{
     private String username;

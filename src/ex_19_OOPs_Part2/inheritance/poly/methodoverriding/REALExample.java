@@ -4,6 +4,8 @@ public class REALExample
 {
     public static void main(String[] args)
     {
+//        CommonToAllTC c= new CommonToAllTC ();
+//        c.openBrowser();
         TC_Chrome t = new TC_Chrome();
         t.openBrowser();
     }

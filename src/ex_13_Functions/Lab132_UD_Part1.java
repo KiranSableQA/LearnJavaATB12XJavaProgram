@@ -73,15 +73,18 @@ public class Lab132_UD_Part1 {
 
     //  4. With Parameters and With Return Type
 
-    static int sum_of_two_numbers(int a, int b){
+    static int sum_of_two_numbers(int a, int b)
+    {
         return a+b;
     }
 
-    static int sum_of_three_numbers(int a, int b,int c){
+    static int sum_of_three_numbers(int a, int b,int c)
+    {
         return a+b+c;
     }
 
-    static float sum_of_three_numbers_float(float a, float b,float c){
+    static float sum_of_three_numbers_float(float a, float b,float c)
+    {
         return a+b+c;
     }
 

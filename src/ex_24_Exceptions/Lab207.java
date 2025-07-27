@@ -5,8 +5,10 @@ public class Lab207 {
         String s1 = null;
         try {
             s1.trim();
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (Exception e ) {
+            System.out.println( e.getMessage());
+            System.out.println(e.toString());
         }
+
     }
 }
