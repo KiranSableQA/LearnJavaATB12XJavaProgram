@@ -27,14 +27,17 @@ public class Student
     }
 
     @Override
-    public String toString() {
-        return "Student{" +
+    public String toString()
+    {
+        return "Student" +
+                "{" +
                 "name='" + name + '\'' +
                 ", rollNo='" + rollNo + '\'' +
                 '}';
     }
 
-    public void printDetails(){
+    public void printDetails()
+    {
         System.out.println("Student Name : " + this.name);
         System.out.println("Student Roll No: " + this.rollNo);
     }

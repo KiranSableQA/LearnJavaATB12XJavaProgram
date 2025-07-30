@@ -14,7 +14,8 @@ public class LabInterview
         System.out.println(al);
         Collections.sort(al, Collections.reverseOrder());
 
-        for (Integer o:al){
+        for (Integer o:al)
+        {
             System.out.println(6*o);
         }
 

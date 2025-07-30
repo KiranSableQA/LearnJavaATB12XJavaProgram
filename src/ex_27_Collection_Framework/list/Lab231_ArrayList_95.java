@@ -23,12 +23,14 @@ public class Lab231_ArrayList_95
 
         System.out.println(" ---");
 
-        for (Object o:list){
+        for (Object o:list)
+        {
             System.out.println(o);
         }
 
         Iterator iterator = list.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext())
+        {
             System.out.println(iterator.next());
         }
 

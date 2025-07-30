@@ -20,7 +20,6 @@ public class Lab238_Stack
         s.push("Amit2");
         System.out.println(s);
 
-
         System.out.println(s.size());
         System.out.println(s);
         System.out.println(s.peek());
@@ -35,7 +34,6 @@ public class Lab238_Stack
         s.add("Chetan");
         s.push("Vijay");
         System.out.println(s);
-
 
         System.out.println(s.get(0));
         System.out.println(s.get(1));
